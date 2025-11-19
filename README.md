@@ -49,7 +49,7 @@ O projeto supera os requisitos mínimos, implementando três padrões:
 
 3.  Compile o projeto:
     ```bash
-    javac Main.java controller/*.java data/*.java factory/*.java model/*.java view/*.java
+    javac Main.java controller/*.java dao/*.java factory/*.java model/*.java view/*.java
     ```
     *(Ou simplesmente `javac Main.java */*.java` se seu terminal suportar)*
 
