@@ -15,7 +15,6 @@ public class BancoDeDadosMemoria implements Dao {
     // 2. Construtor PRIVADO. Ninguém de fora pode dar "new BancoDeDadosMemoria()".
     private BancoDeDadosMemoria() {
         this.produtos = new ArrayList<>();
-        // produtos.add(new model.Livro(1, "O Senhor dos Anéis", 50.0, "Tolkien"));
     }
 
     // 3. Método PÚBLICO e ESTÁTICO que controla o acesso à instância.

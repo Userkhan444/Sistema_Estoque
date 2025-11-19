@@ -1,7 +1,7 @@
 package model;
 
 public class Eletronico extends Produto {
-    private String marca;
+    private final String marca;
 
     public Eletronico(int id, String nome, double preco, String marca) {
         super(nome, preco, id);
@@ -19,5 +19,4 @@ public class Eletronico extends Produto {
     }
 
     public String getMarca() { return marca; }
-    public void setMarca(String marca) { this.marca = marca; }
 }
