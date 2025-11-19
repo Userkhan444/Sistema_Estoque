@@ -35,3 +35,31 @@ O projeto supera os requisitos mínimos, implementando três padrões:
 
 ### Pré-requisitos
 * Java JDK 8 ou superior instalado.
+
+### Passo a passo
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/Userkhan444/Sistema_Estoque.git](https://github.com/Userkhan444/Sistema_Estoque.git)
+    ```
+
+2.  Navegue até a pasta do código fonte:
+    ```bash
+    cd Sistema_Estoque/src
+    ```
+
+3.  Compile o projeto:
+    ```bash
+    javac Main.java controller/*.java data/*.java factory/*.java model/*.java view/*.java
+    ```
+    *(Ou simplesmente `javac Main.java */*.java` se seu terminal suportar)*
+
+4.  Execute o sistema:
+    ```bash
+    java Main
+    ```
+
+* 👥 Autores
+
+* **Davison Gabriel Monteiro de Farias** - (202424448)
+
+*Projeto desenvolvido para fins acadêmicos - 2025.*
